@@ -6,7 +6,7 @@ on:
       registry:
         description: 'Container registry (e.g., ghcr.io/myorg)'
         required: true
-        default: 'ghcr.io/${{ github.repository_owner }}'
+        default: 'ghcr.io/berdinal'
       target:
         description: 'Build target'
         type: choice
